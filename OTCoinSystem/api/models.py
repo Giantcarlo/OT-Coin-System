@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib import auth
 
 # Create your models here.
 class Wallet(models.Model):
@@ -6,7 +7,11 @@ class Wallet(models.Model):
     otHours = models.IntegerField()
     class Meta:
         def __str__(self):
-            return 'Wallet'
+            return f'{self.otHours}'
+    # @classmethod
+    # def amount(sel):
+    #     amount = cls.otHours * 0.3333333
+    #     return amount
 
 class ItemWallet(Wallet):
     totalContributed = models.IntegerField()
@@ -21,4 +26,3 @@ class Item(models.Model):
     class Meta:
         def __str__(self):
             return f'{self.item_name}'
-    

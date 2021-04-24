@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'api'
+    'api',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -76,10 +77,20 @@ WSGI_APPLICATION = 'OTCoinSystem.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'HOST': 'ec2-18-206-84-251.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'NAME': 'dd4gjoig10te05',
+        'USER': 'qoiiheegroqkml',
+        'PASSWORD': '9e9ae5fca9a63741f4ee4c090c096bf05c515de5e21e1cbaf20871650da130e5',
+        'TEST': {
+            'NAME': 'mytestdatabase',
+        },
+
+        # 'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 
 
 # Password validation
