@@ -6,23 +6,23 @@ The first is a python backed backend that is connected to a database that stores
 
 ## Api Routes
 
-[Google](www.http://domain/)
+<www.http://domain/>
 ``` Api root homepage - Displays all api endpoints```
 
-[Google](www.http://domain/items)
+<www.http://domain/items>
 ``` Get items info ```
 
-[Google](www.http://domain/wallets)
+<www.http://domain/wallets>
 ``` Get Wallets info ```
 
 
-[Google](www.http://domain/admin)
+<www.http://domain/admin>
 ``` route that allows administrative users to modify database. ```
 Allows User handling and Group Management.
 
 Allows database manipulation
 
-[Google](www.http://domain/admin/api/item/add/)
+<www.http://domain/admin/api/item/add/>
 ``` route that enables administrative users to add items to database ```
 
 ### Fields
@@ -32,12 +32,12 @@ Price - Price of item in OTC
 TotalContributed - Amount employees contributed to item in OTC
 Availability - Boolean value showing whether object is available for purchase
 
-[Google](www.http://domain/admin/api/wallet/add/)
+<www.http://domain/admin/api/wallet/add/>
 ``` route that enables administrative users to add coins to wallets ```
 
 ### Fields
 Amount = Total OTCoins earned. 300 minutes --> 1 OTCoin
-OTHours = Total Over time done in minutes.
+OTHours = Total Over time  in minutes.
 
 
 Additional Backend that provisions user management written in Node.js.
