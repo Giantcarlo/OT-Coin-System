@@ -7,27 +7,32 @@ The first is a python backed backend that is connected to a PostgresQL database 
 ## Api Routes
 
 **domain/**
-``` Api root homepage - Displays all api endpoints```
+> Api root homepage - Displays all api endpoints
+
 ![Api Root](imgApiRoot.png)
 
 **domain/items**
-``` Get items info ```
+> Get items info 
+
 ![Items List](img/ItemsList.png)
 
 **domain/wallets**
-``` Get Wallets info ```
+> Get Wallets info
+
 ![Wallet List](img/WalletList.png)
 
 
 **domain/admin**
-``` route that allows administrative users to modify database. ```
+> route that allows administrative users to modify database. 
+
 ![Admin Site](img/AdminSite.png)
 Allows User handling and Group Management.
 
 Allows database manipulation
 
 **domain/admin/api/item/add/**
-``` route that enables administrative users to add items to database ```
+> route that enables administrative users to add items to database 
+
 ![Add Items](img/AddItems.png)
 
 
@@ -39,7 +44,8 @@ TotalContributed - Amount employees contributed to item in OTC
 Availability - Boolean value showing whether object is available for purchase
 
 **domain/admin/api/wallet/add/**
-``` route that enables administrative users to add coins to wallets ```
+> route that enables administrative users to add coins to wallets 
+
 ![Add Wallet](img/AddWallet.png)
 
 ### Fields
