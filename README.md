@@ -9,7 +9,7 @@ The first is a python backed backend that is connected to a PostgresQL database 
 **domain/**
 > Api root homepage - Displays all api endpoints
 
-![Api Root](imgApiRoot.png)
+![Api Root](img/ApiRoot.png)
 
 **domain/items**
 > Get items info 
