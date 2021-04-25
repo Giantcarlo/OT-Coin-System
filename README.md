@@ -1,6 +1,6 @@
 # OT-Coin-System
 
-This app contains two backend apps.
+This repository contains two backend apps.
 
 The first is a python backed backend that is connected to a PostgresQL database that stores items and the OTCoin wallet.
 
