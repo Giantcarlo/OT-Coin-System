@@ -38,9 +38,13 @@ Allows database manipulation
 
 ### Fields
 Item name = Item offered by employer
+
 Description = Description of item
+
 Price - Price of item in OTC
+
 TotalContributed - Amount employees contributed to item in OTC
+
 Availability - Boolean value showing whether object is available for purchase
 
 **domain/admin/api/wallet/add/**
@@ -49,7 +53,8 @@ Availability - Boolean value showing whether object is available for purchase
 ![Add Wallet](img/AddWallet.png)
 
 ### Fields
-Amount = Total OTCoins earned. 300 minutes -- 1 OTCoin
+Amount = Total OTCoins earned. 300 minutes --> 1 OTCoin
+
 OTHours = Total Over time  in minutes.
 
 
