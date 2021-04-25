@@ -6,23 +6,23 @@ The first is a python backed backend that is connected to a database that stores
 
 ## Api Routes
 
-<www.http://domain/>
+**domain/**
 ``` Api root homepage - Displays all api endpoints```
 
-<www.http://domain/items>
+**domain/items**
 ``` Get items info ```
 
-<www.http://domain/wallets>
+**domain/wallets**
 ``` Get Wallets info ```
 
 
-<www.http://domain/admin>
+**domain/admin**
 ``` route that allows administrative users to modify database. ```
 Allows User handling and Group Management.
 
 Allows database manipulation
 
-<www.http://domain/admin/api/item/add/>
+**domain/admin/api/item/add/**
 ``` route that enables administrative users to add items to database ```
 
 ### Fields
@@ -32,11 +32,11 @@ Price - Price of item in OTC
 TotalContributed - Amount employees contributed to item in OTC
 Availability - Boolean value showing whether object is available for purchase
 
-<www.http://domain/admin/api/wallet/add/>
+**domain/admin/api/wallet/add/**
 ``` route that enables administrative users to add coins to wallets ```
 
 ### Fields
-Amount = Total OTCoins earned. 300 minutes --> 1 OTCoin
+Amount = Total OTCoins earned. 300 minutes -- 1 OTCoin
 OTHours = Total Over time  in minutes.
 
 
